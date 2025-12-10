@@ -1,12 +1,16 @@
 # :nut_and_bolt: SlimeBolt-Tracker
 
-DIY SlimeVR Trackers based on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html). This case design seeks to support DIY stacked slimes with a swappable lid and easy assembly.
+DIY SlimeVR Trackers based on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html). This case design seeks to support DIY stacked slimes with a swappable decorative lid and easy assembly.
+
+<img src=".\images\IRL_ISO.jpg" height="200">
+<img src=".\images\IRL_ISO_Filled.jpg" height="200">
+<img src=".\images\IRL_TOP_Parts.jpg" height="200">
 
 ## :gear: Components
 
 ### Trackers
 
-Whatever components you buy, purchase 20% more nRF and IMUs than you plan on using. These components sometimes arrive DOA. Nothing's worse than getting all your parts only to sit for another 2-3 weeks for Aliexpress to ship more.
+Whatever components you buy, purchase 20% more nRF and IMUs than you plan on using. These components sometimes arrive DOA, and sometimes you break some. Nothing's worse than getting all your parts only to sit for another 2-3 weeks for Aliexpress to ship more.
 
 | Component | Details | Link |
 | --------- | ------- | ---- |
@@ -23,5 +27,5 @@ Whatever components you buy, purchase 20% more nRF and IMUs than you plan on usi
 | Component | Details | Link |
 | --------- | ------- | ---- |
 | 30 mm (1.2 in) Elastic Band | I recommend you get elastic band with rubber webbing behind it. This keeps the tracker secure without tightening it down. | [Amazon](https://www.amazon.com/dp/B092SM7Z2V) |
-| 30 mm buckles | You could print these like I do. I use [This Dovetail Latch ](https://www.thingiverse.com/thing:6929026) design from [MoDErahN](https://www.thingiverse.com/MoDErahN) on Thingiverse | |
+| 30 mm buckles | You could print these like I do. I use [This Dovetail Latch](https://www.thingiverse.com/thing:6929026) design from [MoDErahN](https://www.thingiverse.com/MoDErahN) on Thingiverse | |
 | Needle & Thread / Hot glue | Used to secure one end of the strap. With the dovetail latch I often don't have to secure an end. | |
