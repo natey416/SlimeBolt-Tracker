@@ -6,7 +6,17 @@ DIY SlimeVR Trackers based on [Smol Slimes](https://docs.slimevr.dev/smol-slimes
 
 <img src=".\images\IRL_ISO.jpg" height="200"><img src=".\images\IRL_ISO_Filled.jpg" height="200"><img src=".\images\IRL_TOP_Parts.jpg" height="200">
 
+## The Rationale
+
 I've never been a big fan of snap fits in 3d prints. Maybe its because I take my things apart to often... With this design, you are free to disassemble and peek at your tracker's guts every now and then. You could swap the faceplates with new designs or labels. Whatever your heart desires!
+
+### Battery Disconnect
+
+This design incorporates a battery disconnect switch. The ProMicro's deep sleep functionality is good, but I am not a very trusting person. I have had a few of my slimes drop below 3.0V in this mode, potentially damaging the batteries. The switch guarantees the tracker is turned off with no current from the ProMicro.
+
+If you do choose to store your trackers for more than a week, it is recommended by many hobbyists to discharge the tracker to 3.7v-3.8v. This is considered "storage" voltage. At this state, the battery can sit for a very long time with minimal internal losses.
+
+## Printing
 
 For one tracker, you must print one [Bolt-Base](3d-files\Bolt-Base.step) and one of any lid design: [Blank](3d-files\Bolt-Lid-Blank.step), [Large Logo](3d-files\Bolt-Lid-Large-Logo.step) or, [Small Logo](3d-files\Bolt-Lid-Small-Logo).
 
@@ -16,7 +26,7 @@ Print with the flat sides of the lid and base on the build plate. Turn on automa
 
 <img src=".\images\Slicer-Multicolor-Lid.png" height="500">
 
-The logo lids are comprised of two components. In your slicer, you may assign materials to these components to make this logo stand out. This works in most slic3r based slicers (Prusa, bambu, orca, etc). You may also remove the logo component and leave the void embossed into the print.
+The logo lids are comprised of two components. In your slicer, you may assign materials to these components to make this logo stand out. This works in most slic3r based slicers (Prusa, Bambu, Orca, etc). You may also remove the logo component and leave the void embossed into the print.
 
 The small logo lid variant has a small space at the bottom for you to emboss text, should you decide to do that!
 
@@ -28,13 +38,13 @@ Whatever components you buy, purchase 20% more nRF and IMUs than you plan on usi
 
 | Component | Details | Link |
 | --------- | ------- | ---- |
-| ProMicro nRF52840 | The main controller | [Aliexpress](https://www.aliexpress.us/item/3256807552571798.html) |
+| ProMicro nRF52840 | The main microprocessor. These sometimes arrive DOA. Order more than necessary! | [Aliexpress](https://www.aliexpress.us/item/3256807552571798.html) |
 | SlimeVR Compatible IMU | Check the [SlimeVR Docs](https://docs.slimevr.dev/diy/imu-comparison.html#-recommended-imus) for a recommendation list | [ICM45686+QMC6309](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309) |
 | 3x4x2 Push Button Switch | Used as a multipurpose interface to reset, calibrate, pair, etc. Make sure you order the proper size! | [Aliexpress](https://www.aliexpress.us/item/3256806817879697.html) or [Amazon](https://www.amazon.com/dp/B07TB62N4T) |
 | SPDT 3mm Toggle Switch | Used to disconnect the battery for long term storage. | [Aliexpress](https://www.aliexpress.us/item/3256803752541650.html) or [Amazon](https://www.amazon.com/dp/B09R43HCY3) |
-| 601230 3.7v 180mAh LiPo Battery | Provides around 30 hours of runtime. Purchase in a 10 pack if possible | [Aliexpress](https://www.aliexpress.us/item/3256807528195808.html) |
+| 601230 3.7v 180mAh LiPo Battery | Provides around 30 hours of runtime. Purchase in a 10 pack to save on shipping. | [Aliexpress](https://www.aliexpress.us/item/3256807528195808.html) |
 | Kapton/Electrical Tape | A small layer of tape is used under the IMU to prevent shorting between the IMU and ProMicro. 20mm width recommended. |  |
-| 26 AWG Wire | Used for wiring battery disconnect and antenna |  |
+| 26 AWG Wire | Used for wiring battery disconnect and antenna. |  |
 | 4 x M2x0.4x12 Socket Cap Screw | DIN 912 / ISO 4762 Standard | [McMaster](https://www.mcmaster.com/91292A834/) |
 | 4 x M2x0.4 Hex Nut | DIN 934 | [McMaster](https://www.mcmaster.com/90591A265/) |
 
@@ -42,9 +52,9 @@ Whatever components you buy, purchase 20% more nRF and IMUs than you plan on usi
 
 | Component | Details | Link |
 | --------- | ------- | ---- |
-| 30 mm (1.2 in) Elastic Band | I recommend you get elastic band with rubber webbing behind it. This keeps the tracker secure without tightening it down. | [Amazon](https://www.amazon.com/dp/B092SM7Z2V) |
+| 30 mm (1.2 in) Elastic Band | I recommend you get elastic band with rubber webbing behind it. This keeps the tracker secure without cinching it onto your body. | [Amazon](https://www.amazon.com/dp/B092SM7Z2V) |
 | 30 mm buckles | You could print these like I do. I use [This Dovetail Latch](https://www.thingiverse.com/thing:6929026) design from [MoDErahN](https://www.thingiverse.com/MoDErahN) on Thingiverse | |
-| Needle & Thread / Hot glue | Used to secure one end of the strap. With the dovetail latch I often don't have to secure an end. | |
+| Needle & Thread / Hot glue | Used to secure one end of the strap. With the dovetail latch I often don't have to secure an end. It holds tightly enough. | |
 
 ## :wrench: Assembly Instructions
 
