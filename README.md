@@ -2,7 +2,7 @@
 
 DIY SlimeVR Trackers based on [Smol Slimes](https://docs.slimevr.dev/smol-slimes/index.html). This case design seeks to support DIY stacked slimes with a swappable decorative lid and easy assembly.
 
-<img src=".\images\RENDER_ISO.PNG" height="200"><img src=".\images\RENDER_ISO_NoTop.PNG" height="200">
+<img src=".\images\RENDER_ISO.PNG" height="200"><img src=".\images\RENDER_ISO_NoTop.png" height="200">
 
 <img src=".\images\IRL_ISO.jpg" height="200"><img src=".\images\IRL_ISO_Filled.jpg" height="200"><img src=".\images\IRL_TOP_Parts.jpg" height="200">
 
