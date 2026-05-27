@@ -14,13 +14,12 @@ I've never been a big fan of snap fits in 3d prints. Maybe its because I take my
 
 This design incorporates a battery disconnect switch. The ProMicro's deep sleep functionality is good, but I am not a very trusting person. I have had a few of my slimes drop below 3.0V in this mode, potentially damaging the batteries. The switch guarantees the tracker is turned off with no current from the ProMicro.
 
-**Update:** My future trackers no longer use this switch, I've updated the base model to remove the switch port. [See here!](3d-files\Bolt-Base-No-Switch.step)
-
+**Update:** My future trackers no longer use this switch, I've updated the base model to remove the switch port. [See here!](./3d-files/Bolt-Base-No-Switch.step)
 If you do choose to store your trackers for more than a week, it is recommended by many hobbyists to discharge the tracker to 3.7v-3.8v. This is considered "storage" voltage. At this state, the battery can sit for a very long time with minimal internal losses.
 
 ## Printing
 
-For one tracker, you must print one [Bolt-Base](3d-files\Bolt-Base.step) and one of any lid design: [Blank](3d-files\Bolt-Lid-Blank.step), [Large Logo](3d-files\Bolt-Lid-Large-Logo.step) or, [Small Logo](3d-files\Bolt-Lid-Small-Logo).
+For one tracker, you must print one [Bolt-Base](./3d-files/Bolt-Base.step) and one of any lid design: [Blank](./3d-files/Bolt-Lid-Blank.step), [Large Logo](./3d-files/Bolt-Lid-Large-Logo.step) or, [Small Logo](./3d-files/Bolt-Lid-Small-Logo).
 
 <img src=".\images\Slicer-Orientation.png" height="500">
 
